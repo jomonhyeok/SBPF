@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script><!--jquery cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <!--Semantic UI-->
+    <link rel="stylesheet" href="css/subImport.css">
+    <link rel="stylesheet" href="css/news.css">
+    <script src="js/news.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="mainLogo">
+                <h1>
+                    <a href="main.html">
+                        <img src="images/mainlogo.png" alt="mainlogo">
+                    </a>
+                </h1>
+            </div>
+            <nav>
+                <input type="checkbox" id="hamburger">
+                <label for="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul>
+                    <li>
+                        <h3>COMPANY <i class="angle down icon"></i> </h3>
+                        <div class="container">
+                            <div class="TopSubmenu">
+                                <h4>Company</h4>
+                                <ol>
+                                    <li><a href="company.html"> 스타벅스 소개</a></li>
+                                    <li><a href="news.html"> 국내 뉴스룸</a></li>
+                                    <li><a href="#"> 글로벌 뉴스룸</a></li>
+                                </ol>
+                            </div>
+                            <div class="TopmenuImg">
+                                <img src="images/companyimg/menu01.png" alt="Topmenu">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>STORY<i class="angle down icon"></i></h3>
+                        <div class="container">
+                            <div class="TopSubmenu">
+                                <h4>Story</h4>
+                                <ol>
+                                    <li><a href="#">아라비카 원두</a></li>
+                                    <li><a href="#">스타벅스 디카페인</a></li>
+                                    <li><a href="#">클로버® 커피 추출</a></li>
+                                </ol>
+                            </div>
+                            <div class="TopmenuImg"> 
+                                <img src="images/companyimg/menu02.png" alt="Topmenu">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>STORE<i class="angle down icon"></i></h3>
+                        <div class="container">
+                            <div class="TopSubmenu">
+                                <h4>Store</h4>
+                                <ol>
+                                    <li><a href="#">국내 매장</a></li>
+                                    <li><a href="#">해외 매장</a></li>
+                                </ol>
+                            </div>
+                            <div class="TopmenuImg">
+                                <img src="images/companyimg/menu03.png" alt="Topmenu">
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h1>
+                            <a href="main.html">
+                                <img src="images/mainlogo.png" alt="mainlogo">
+                            </a>
+                        </h1>
+                    </li>
+                    <li>
+                        <h3>MENU<i class="angle down icon"></i></h3>
+                        <div class="container">
+                            <div class="TopmenuImg">
+                                <img src="images/companyimg/menu04.png" alt="Topmenu">
+                            </div>
+                            <div class="TopSubmenu">
+                                <h4>Menu</h4>
+                                <ol>
+                                    <li><a href="#">Drinks</a></li>
+                                    <li><a href="#">Food</a></li>
+                                    <li><a href="#">Goods</a></li>
+                                    <li><a href="#">Card</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>RESERVE<i class="angle down icon"></i></h3>
+                        <div class="container">
+                            <div class="TopmenuImg">
+                                <img src="images/companyimg/menu05.png" alt="Topmenu">
+                            </div>
+                            <div class="TopSubmenu">
+                                <h4>Reserve</h4>
+                                <ol>
+                                    <li><a href="#">스타벅스 리저브™ 소개</a></li>
+                                    <li><a href="#">리저브 매장 찾기</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h3>REWARD<i class="angle down icon"></i></h3>
+                        <div class="container">
+                            <div class="TopmenuImg">
+                                <img src="images/companyimg/menu06.png" alt="Topmenu">
+                            </div>
+                            <div class="TopSubmenu">
+                                <h4>Reward</h4>
+                                <ol>
+                                    <li><a href="#">마이 스타벅스 리워드 소개</a></li>
+                                    <li><a href="#">등급 및 혜택</a></li>
+                                </ol>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="login">
+                    <a href="#">로그인 ㆍ 회원가입</a>
+                </div>
+            </nav>
+        </div>
+        <div class="title">
+            <hr/>
+            <h2>COMPANY</h2>
+        </div>
+        <ol>
+            <li>
+                <a href="company.html">스타벅스 소개</a>
+            </li>
+            <li class="active">
+                <a href="news.html">국내 뉴스룸</a>
+            </li>
+            <li>
+                <a href="#">글로벌 뉴스룸</a>
+            </li>
+        </ol>
+    </header>
+
+    <section class="news">
+        <h2>News</h2>
+        <hr/>
+        <div class="select">
+            <i class="active large list ul icon">
+                <span>List형</span>
+            </i>
+            <i class="large th icon">
+                <span>타일형</span>
+            </i>
+            <form action="#" method = "get">
+                <select name="content" title = "content">
+                    <option value="전체" selected="selected">전체</option>
+                    <option value="제목">제목</option>
+                    <option value="내용">내용</option>
+                </select>
+                <input type="text" placeholder="검색어를 입력하세요" title="검색어입력" name="keyword">
+                <button type="submit" class="btn_submit">Search</button>
+            </form>
+        </div>
+        <ul class="list">
+            <li>
+                <figure>
+                    <img src="images/newsimg/news07.png" alt="news">
+                    <figcaption>
+                        <strong>[사회공헌]</strong>
+                        <h3>아름다운재단과 함께 청년 자립정착꿈 지원사업</h3>
+                        <p>스타벅스는 보호종료청년들 중 희망자들에게 전문 커피 교육 및 스타벅스 바리스타 입사 기회를 제공하며, 한양사이버대학교 입학 지원을 통해 실질적인 자립기회를 제공함으로써...</p>
+                        <span>2019-08-13 16:12</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/newsimg/news02.png" alt="news">
+                    <figcaption>
+                        <strong>[디지털]</strong>
+                        <h3>현대카드와 함께 스타벅스 전용 신용카드 선보여</h3>
+                        <p>스타벅스는 이번 협약을 통해 스타벅스의 마이 스타벅스 리워드 회원의 별 리워드를 기반으로 하는 기업 전용 신용카드를 올해 하반기 출시한다...</p>
+                        <span>2019-07-19 09:17</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/newsimg/news03.png" alt="news">
+                    <figcaption>
+                        <strong>[사회공헌]</strong>
+                        <h3>환구단점 개점하며 문화유산보호기금 5천만원 기부</h3>
+                        <p>이 날 정재숙 문화재청장과 문화유산국민신탁 김종규 이사장, 덕수궁관리소 방현기 소장 등이 참석한 가운데 스타벅스는 근대 문화유산 위해 문화유산보존...</p>
+                        <span>2019-06-12 09:42</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/newsimg/news04.png" alt="news">
+                    <figcaption>
+                        <strong>[제품 및 행사]</strong>
+                        <h3>더욱 진한 망고 맛으로 돌아왔다! ‘애플망고 요거트 블렌디드’ 출시</h3>
+                        <p>‘애플망고 요거트 블렌디드’는 스타벅스가 2016년 여름에 처음 출시해 출시 당시 여름 시즌 동안 170만잔에 가까운 판매고를 올리며 남녀노소 모두에게 사랑 받았던 음료</p>
+                        <span>2019-05-12 09:15</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/newsimg/news05.png" alt="news">
+                    <figcaption>
+                        <strong>[제품 및 행사]</strong>
+                        <h3>스타벅스, 티바나 특화 음료 판매 매장 확대</h3>
+                        <p>스타벅스 티바나 바 매장에서는 차별화된 티 음료 경험을 제공하는 티 저니 프로그램을 운영하고 있다. 티 원료의 모양과 향, 블렌딩 시향과 순수하게 우린 티의 향과 맛...</p>
+                        <span>2019-04-12 07:21</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/newsimg/news06.png" alt="news">
+                    <figcaption>
+                        <strong>[제품 및 행사]</strong>
+                        <h3>원산지, 로스팅, 카페인따라 원두 선택하는 홈카페족 증가</h3>
+                        <p>특히, 올해 홈 카페 열풍 속에 단일 원산지 커피들의 판매가 급격하게 증가했다. 평소 커피 애호가들이 즐겨 찾는 인도네시아의 커피 원산지인 ‘수마트라’ 원두의 판매율이...</p>
+                        <span>2019-03-12 05:32</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/newsimg/news01.png" alt="news">
+                    <figcaption>
+                        <strong>[사회공헌]</strong>
+                        <h3>스타벅스, 아름다운재단과 '보호종료청년' 지원 MOU 체결</h3>
+                        <p>스타벅스는 국내 기업 중 최초로 시설 퇴소 후 대학에 진학하지 않는 청년들의 사회진출을 보다 안정적으로 지원하기 위해 아름다운재단과 함께 이번 프로그램을 기획했다.</p>
+                        <span>2019-03-01 19:14</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/newsimg/news08.png" alt="news">
+                    <figcaption>
+                        <strong>[매장]</strong>
+                        <h3>경자년 1분기 장애인 바리스타 공개 채용 시작</h3>
+                        <p>지원자는 지원서 접수 후, 서류전형과 면접전형을 거쳐 입문교육과 실습을 진행한다. 매장 근무가 가능하도록 바리스타 업무를 배우는 실습은 크게 3가지로 구분되어 있다.</p>
+                        <span>2019-02-01 19:42</span>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/newsimg/news09.png" alt="news">
+                    <figcaption>
+                        <strong>[매장]</strong>
+                        <h3>스타벅스, 커뮤니티 스토어 청년인재 리더십 캠프 진행</h3>
+                        <p>스타벅스 커뮤니티 스토어는 차별화된 사회공헌 모델로 수익금 일부를 지역사회에 환원하는 이익공유형 매장으로 지난 2014년 10월 대학로에 문을 열었다</p>
+                        <span>2019-01-01 19:42</span>
+                    </figcaption>
+                </figure>
+            </li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <div class="wrap">
+            <div class="footer_left">
+                <h3>바로가기</h3>
+                <div class="shortcut">
+                    <a href="#">사이트맵 바로가기 <span>→</span></a>
+                </div>
+                <div class="shortcut">
+                    <a href="https://jomonhyeok.github.io/starbucksPF/">이전 홈페이지 바로가기 <span>→</span></a>
+                </div>
+            </div>
+            <div class="footer_middle">
+                <h3>COMMUNITY</h3>
+                <ul>
+                    <li>
+                        <a href="#"><img src="images/sns_icon01.png" alt="sns_icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/sns_icon02.png" alt="sns_icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/sns_icon03.png" alt="sns_icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/sns_icon04.png" alt="sns_icon"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/sns_icon05.png" alt="sns_icon"></a>
+                    </li>
+                </ul>
+                <h3>PARTNERSHIP</h3>
+                <p>bitierum, officiis asperiaiores exercitationem.</p>
+            </div>
+            <div class="footer_right">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">홈페이지 이용약관</a></li>
+                    <li><a href="#">스타벅스 카드 이용약관</a></li>
+                </ul>
+                <div>
+                    <p>사업자등록번호 : 201-81-21515 </p>
+                    <p>(주)스타벅스커피 코리아 대표이사 : 송 데이비드 호섭 TEL : 1522-3232</p>
+                </div>
+                <div>
+                    <p>ⓒ 2020 Starbucks Coffee Company. All Rights Reserved.</p>
+                    <p>Design and coding by Team Yoo</p>
+                </div>
+            </div>
+        </div>   
+    </footer>
+</body>
+</html>
